@@ -1,0 +1,48 @@
+.reserve {
+	display: flex;
+	flex-direction: column;
+}
+
+.reserve__first {
+	background-image: url('../img/reserve__first.png');
+	@include backgraund_image (no-repeat, cover, center, #333333);
+	padding-top: 225px;
+	padding-bottom: 100px;
+}
+
+.reserve__third {
+	background-image: url('../img/reserve__third.png');
+	@include backgraund_image (no-repeat, cover, center, #333333);
+	padding-top: 230px;
+	padding-bottom: 100px;
+}
+
+.reserve__book {
+	width: 27.33%;
+	margin-left: 330px;
+	padding: 45px 20px 50px 33px;
+	background-color: rgba(55, 52, 49, 0.9);
+}
+
+.reserve__book--third {
+	float: right;
+	margin-right: 330px;
+}
+
+.reserve__country {
+	letter-spacing: 0.075em;
+	text-transform: none;
+}
+
+.reserve__town {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.reserve__button {
+	font-family: $font-family--btn;
+	font-size: $font-size--btn;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	color: $color--btn;
+}

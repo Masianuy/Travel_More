@@ -1,0 +1,68 @@
+body {
+	min-width: 1770px;
+	margin: 0 auto;
+	font-family: $font-family--main;
+	color: $color--main;
+}
+
+h3 {
+	margin: 0;
+	font-family: $font-family--h3;
+	font-size: $font-size--h3;
+	font-weight: $font-weight--h3;
+	line-height: $line-height--h3;
+	color: $color--h3;
+}
+
+h6 {
+	margin: 0;
+	font-family: $font-family--h6;
+	font-size: $font-size--h6;
+	font-weight: $font-weight--h6;
+	color: $color--h6;
+	letter-spacing: $letter-spacing--h6;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-family: $font-family--link;
+	font-size: $font-size--link;
+	font-weight: $font-weight--link;
+	color: $color--link;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+input:focus {
+	background-color: #0e0e3f;
+}
+
+.logo {
+	font-family: $font-family--logo;
+	font-size: $font-size--logo;
+	font-weight: $font-weight--logo;
+	text-transform: uppercase;
+}
+
+.text {
+	font-family: $font-family--text;
+	font-size: $font-size--text;
+	font-weight: $font-weight--text;
+	color: $color--text;
+	line-height: $line-height--text;
+	letter-spacing: $letter-spacing--text;
+}
