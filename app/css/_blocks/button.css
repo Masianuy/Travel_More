@@ -1,0 +1,32 @@
+.button {
+  margin-top: 45px;
+  width: 225px;
+  height: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-linear-gradient(45deg, #496bfe, #496bfe 40%, #5474fd 40%, #5474fd);
+  background: -o-linear-gradient(45deg, #496bfe, #496bfe 40%, #5474fd 40%, #5474fd);
+  background: linear-gradient(45deg, #496bfe, #496bfe 40%, #5474fd 40%, #5474fd); }
+  .button a {
+    margin: auto; }
+    .button a:hover {
+      width: 225px;
+      height: 60px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background-color: #082567;
+      color: #FDE910; }
+    .button a:focus {
+      color: red; }
